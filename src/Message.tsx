@@ -1,5 +1,12 @@
+//pascalcasing
+
 function Message (){
-    return <h1>hello orld</h1>;
+    
+   const name= 'hiro';
+   if(name)
+    return<h1>hello {name}</h1>;
+ else
+    return <h1>hello world</h1>;
 
 }
 
